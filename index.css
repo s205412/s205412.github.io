@@ -504,6 +504,39 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
+/*Slideshow stuff*/
+.work__slideshow {
+    position: relative;
+}
+
+.work__slide {
+    display: none;
+    width: 100%;
+}
+
+.work__slide.active {
+    display: block;
+}
+
+.work__slideshow button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.work__slideshow .previous {
+    left: 1rem;
+}
+
+.work__slideshow .next {
+    right: 1rem;
+}
 
 /* --------------------------------------- */
 /* ----- Clients ----- */
