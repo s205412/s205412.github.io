@@ -58,10 +58,12 @@ document.querySelectorAll("[data-slideshow]").forEach((slideshow) => {
   };
 
   previous.addEventListener("click", () => {
+    document.body.classList.add("has-slideshow-interacted");
     showSlide(currentSlide - 1);
   });
 
   next.addEventListener("click", () => {
+    document.body.classList.add("has-slideshow-interacted");
     showSlide(currentSlide + 1);
   });
 
