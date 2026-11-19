@@ -29,7 +29,8 @@
 
     <meta name="description" content="Portfolio of Qiao Chih Lei, Software Technology student at DTU."/>
     <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-    <meta name="keywords" content="Qiao Chih Lei, software developer, portfolio, JavaScript, Kotlin, Java, web development"/>
+    <meta name="keywords"
+          content="Qiao Chih Lei, software developer, portfolio, JavaScript, Kotlin, Java, web development"/>
     <link rel="stylesheet" href="index.css"/>
 </head>
 
@@ -133,11 +134,60 @@
                     </div>
                 </div> <!-- Fullstack -->
 
+                <div class="work__box"> <!-- CDIO -->
+                    <div class="work__text">
+                        <h3>Golf ball collecting robot </h3>
+                        <p>
+                            Implementation of embedded systems using a LEGO mindstorms robot and Python for my CDIO course. We had to build robots that picked up golf balls as fast as possible and we ended up using a A-star algorithm for pathfinding.
+                        </p>
+                        <ul class="work__list">
+                            <li>Python</li>
+                            <li>ev3dev(Linux)</li>
+                        </ul>
+
+                        <div class="work__links">
+                            <a href="https://github.com/hotbear1110/CDIO_Server-Client" class="link__text" target="_blank"
+                               rel="noopener noreferrer">
+                                Visit source <span>&rarr;</span>
+                            </a>
+                            <a href="https://github.com/hotbear1110/CDIO_Server-Client" target="_blank"
+                               rel="noopener noreferrer">
+                                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work__image-box">
+                        <div class="work__slideshow" data-slideshow>
+                            <img
+                                    src="./images/cdio1.png"
+                                    class="work__image work__slide"
+                                    alt="LEGO robot."
+                            />
+
+                            <img
+                                    src="./images/cdio2.png"
+                                    class="work__image work__slide"
+                                    alt="Camera overlay for robot."
+                            />
+
+
+                            <button type="button" class="previous" aria-label="Previous image">
+                                &#10094;
+                            </button>
+
+                            <button type="button" class="next" aria-label="Next image">
+                                &#10095;
+                            </button>
+                        </div>
+                    </div>
+                </div> <!-- Fullstack -->
+
                 <div class="work__box"> <!-- MTG -->
                     <div class="work__text">
-                        <h3>Magic: The Gathering</h3>
+                        <h3>Magic: The Gathering card searching app</h3>
                         <p>
-                            An app that lets you search for Magic: The Gathering cards and view their details. It uses the Scryfall API to fetch card data and lets you favorite cards and filter them locally.
+                            An app that lets you search for Magic: The Gathering cards and view their details. It uses
+                            the Scryfall API to fetch card data and lets you favorite cards and filter them locally.
                         </p>
                         <ul class="work__list">
                             <li>Kotlin</li>
@@ -196,7 +246,7 @@
 
                 <div class="work__box"> <!-- Roborally -->
                     <div class="work__text">
-                        <h3>RoboRally</h3>
+                        <h3>RoboRally online boardgame</h3>
                         <p>
                             A port of the boardgame RoboRally with multiplayer functionally over the internet.
                         </p>
@@ -290,7 +340,9 @@
                 <div class="about__text">
                     <!-- Replace the below paragraph with info about yourself -->
                     <p>
-                        Hi! I'm Qiao Chih Lei, a Software Technology student at DTU. I have a passion for programming and enjoy creating applications that solve real-world problems. My interests include full-stack, mobile app, and game development.
+                        Hi! I'm Qiao Chih Lei, a Software Technology student at DTU. I have a passion for programming
+                        and enjoy creating applications that solve real-world problems. My interests include full-stack,
+                        mobile app, and game development.
                     </p>
                     <!-- Provide a link to your resume -->
                     <a href="./CV.pdf" class="btn" target="_blank" rel="noopener noreferrer">My Resume</a>
